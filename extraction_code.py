@@ -104,7 +104,7 @@ ph_numbers = re.findall(" *[0-9]{3}-*[0-9]{3}-*[0-9]{4} *", final_text)
 phone_numbers = [x.strip() for x in ph_numbers]
 phone_numbers = list(set(phone_numbers))
 emails = re.findall("\S+@\S+", final_text)
-emails = list(set(potential_emails))
+# emails = list(set(potential_emails))
 
 exp_text = n_seperator(exp_wlist,[edu_wlist,skill_wlist,acc_wlist],final_text)
 ed_text = n_seperator(edu_wlist,[exp_wlist,skill_wlist,acc_wlist],final_text)
@@ -123,8 +123,8 @@ for sent in ed_sentences:
     all_univs=all_univs+univs
 all_univs = list(set(all_univs))
 
-univ_file = open('top_univ.txt','r')
-top_univs = (univ_file.read()).split('\n')
+# univ_file = open('top_univ.txt','r')
+# top_univs = (univ_file.read()).split('\n')
 univ_score = 0
 univ_matches=[]
 for x in all_univs:

@@ -34,7 +34,7 @@ isodate==0.6.0
 Jinja2==2.11.3
 joblib==1.0.1
 Keras-Preprocessing==1.1.2
-lxml==4.6.3
+lxml==4.9.1
 Markdown==3.3.4
 MarkupSafe==1.1.1
 murmurhash==1.0.5

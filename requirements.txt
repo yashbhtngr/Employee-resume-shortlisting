@@ -51,7 +51,7 @@ pathlib==1.0.1
 pathy==0.4.0
 pluggy==0.13.1
 preshed==3.0.5
-protobuf==3.15.7
+protobuf==3.18.3
 prov==2.0.0
 py==1.10.0
 pyasn1==0.4.8
